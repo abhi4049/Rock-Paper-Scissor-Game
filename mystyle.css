@@ -48,7 +48,6 @@ img{
 	height: auto;
 	display: flex;
 	justify-content: center;
-	overflow: auto;
 }
 .playerDetail, .computerDetail{
 	margin: 2rem;
