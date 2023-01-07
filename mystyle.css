@@ -1,0 +1,72 @@
+/* styles.css */
+/* universal selector - Applies to whole document */
+*{
+	padding: 0;
+	margin: 0;
+	/* backg round: rgb(186, 211, 61); */
+	color: navy;
+    font: 'poppins';
+}
+
+.title{
+	top: 0;
+    width: 100%;
+    text-align: center;
+	font-size: 30px;
+	z-index: 2;
+    background-color: navy;
+    color: yellow;
+    text-shadow: 0 0 5px whitesmoke;
+} 
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+}
+.options{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img{
+	width: 10%;
+	margin: 1rem;
+	cursor: pointer;
+	padding: 1rem;
+	border-radius: 50%;
+}
+#result {
+	background-color:black;
+	width: 40%;
+	text-align: center;
+}
+.details{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	overflow: auto;
+}
+.playerDetail, .computerDetail{
+	margin: 2rem;
+	text-align: center;
+	font-size: 1.7rem;
+}
+@media (max-width: 800px) {
+	.options img{
+		width: 12%;
+	}
+  }
+@media (max-width: 500px) {
+	.options img{
+		width: 15%;
+	}
+  }
+@media (max-width: 400px) {
+	.container{
+		padding-left: 5%;
+	}
+  }
